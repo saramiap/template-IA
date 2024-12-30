@@ -1,7 +1,7 @@
 {
-  "name": "ai-stocks",
+  "name": "template-IA",
   "version": "1.0.0",
-  "description": "## Require to start Ollama server locally before",
+  "description": "Gemini API ##",
   "scripts": {
     "preinstall": "(cd backend && npm i) & (cd frontend && npm i)",
     "start": "(cd backend && npm run dev) & (cd frontend && npm start)"
