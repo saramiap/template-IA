@@ -1,0 +1,103 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif; /* Use a modern font like GitHub */
+    background: linear-gradient(135deg, #2a0845, #6441a5); /* Dark purple gradient */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+    width: 700px;
+    background: #1e1e2f; /* Deep dark purple for the container */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Softer shadow for depth */
+    color: #e0e0e0; /* Slightly muted white for text */
+    padding: 25px;
+    margin: 50px;
+}
+
+.App-header {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #bb86fc; /* Soft purple for headers */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt-input {
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #6441a5; /* Subtle purple border */
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #2a2a3d; /* Dark input background */
+    color: #e0e0e0; /* Text color for input */
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.prompt-input:focus {
+    border-color: #bb86fc; /* Bright focus border */
+    box-shadow: 0 0 10px rgba(187, 134, 252, 0.8);
+}
+
+.submit-button {
+    background: #6441a5; /* Dark purple */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background: #bb86fc; /* Brighter hover color */
+    transform: scale(1.05); /* Slight pop effect */
+}
+
+.submit-button:disabled {
+    background: #3c3c50; /* Muted gray for disabled button */
+    cursor: not-allowed;
+}
+
+.loader {
+    margin-top: 20px;
+    color: #bb86fc; /* Loader color matches the theme */
+    font-size: 1rem;
+}
+
+.response-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #29293d; /* Dark response box */
+    border-radius: 8px;
+    color: #ffffff;
+    border: 1px solid #6441a5; /* Subtle border */
+}
+
+.response-box h2 {
+    margin-top: 0;
+    color: #bb86fc;
+}
+
+.response-box p {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+}

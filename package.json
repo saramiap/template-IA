@@ -1,0 +1,11 @@
+{
+  "name": "ai-stocks",
+  "version": "1.0.0",
+  "description": "## Require to start Ollama server locally before",
+  "scripts": {
+    "preinstall": "(cd backend && npm i) & (cd frontend && npm i)",
+    "start": "(cd backend && npm run dev) & (cd frontend && npm start)"
+  },
+  "author": "",
+  "license": "ISC"
+}
